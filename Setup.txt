@@ -1,0 +1,7 @@
+PDF Document Ingestion: Extract text chunks from the PDF document.
+Text Embedding with OpenAI: Use OpenAI API (with an API key) to convert text chunks into numerical embeddings.
+Store Embeddings in Vector Database: Save embeddings in Astra DB for efficient storage and retrieval.
+Query Processing with LangChain: Convert user queries into embeddings using OpenAI API through LangChain.
+Vector Search in Astra DB: Perform similarity search in Astra DB to find relevant text chunks.
+Response Generation and User Interaction: Retrieve and present relevant information to the user.
+LLM Integration for Enhanced Functionality: Utilize LangChain and LLM for advanced query handling and contextual understanding.
